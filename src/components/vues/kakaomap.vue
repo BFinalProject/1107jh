@@ -7,7 +7,7 @@
       data-bs-target="#offcanvasScrolling"
       aria-controls="offcanvasScrolling"
     >
-      카테고리
+      카테고리s
     </button>
 
     <div
@@ -386,7 +386,7 @@ export default {
       /* global kakao */
       script.onload = () => kakao.maps.load(this.initMap);
       script.src =
-        "//dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=	adfe893e046c16c34558d22483c0563d";
+        "//dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=adfe893e046c16c34558d22483c0563d";
       document.head.appendChild(script);
     }
 
